@@ -1,0 +1,27 @@
+.expense_card__main {
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.expense_card__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tag1 {
+    background-color: #00D1D1;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.tag2{
+    background-color: #FA8072;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+}

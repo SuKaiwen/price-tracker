@@ -1,0 +1,18 @@
+.expense_main__spending_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.expense_main__spending_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.expense_main__spending_card i {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+}
